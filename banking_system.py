@@ -1,7 +1,9 @@
 
 # Function to deposit money into an account
 def deposit(account: dict, amount: float) -> None:
-    account = {'John': {'balance':1000}, 'Jane': {'balance': 500}}
+    account["balance"] += amount
+
+    
 
 # Function to withdraw money from an account
 def withdraw(account: dict, amount: float) -> None:
